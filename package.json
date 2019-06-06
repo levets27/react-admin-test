@@ -8,7 +8,7 @@
     "react": "^16.8.6",
     "react-admin": "^2.9.2",
     "react-dom": "^16.8.6",
-    "react-scripts": "0.9.x"
+    "react-scripts": "3.0.1"
   },
   "devDependencies": {},
   "scripts": {
