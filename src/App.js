@@ -26,5 +26,15 @@ const App = () => (
     <Resource name="users" list={UserList} icon={UserIcon} />
   </Admin>
 );
+const sassExtract = require("sass-extract");
+
+sassExtract
+  .render({
+    file: "./sass/_global_vars.scss"
+  })
+  .then(rendered => {
+    console.log(rendered.vars);
+    console.log(rendered.css.toString());
+  });
 
 export default App;
