@@ -1,0 +1,18 @@
+@import './color_vars';
+
+$text-primary: $blue;
+$text-secondary: $green;
+$text-tertiary: $red;
+
+$bg-primary: $blue;
+$bg-secondary: $green;
+$bg-tertiary: $red;
+
+:export {
+  text-primary: $text-primary;
+  text-secondary: $text-secondary;
+  text-tertiary: $text-tertiary;
+  bg-primary: $bg-primary;
+  bg-secondary: $bg-secondary;
+  bg-tertiary: $bg-tertiary;
+}
